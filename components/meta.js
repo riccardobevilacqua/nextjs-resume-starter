@@ -1,9 +1,10 @@
 import Head from 'next/head'
-import { SITE_DESCRIPTION } from '@lib/constants'
+import { SITE_TITLE, SITE_DESCRIPTION } from '@lib/constants'
 
 export default function Meta() {
   return (
     <Head>
+      <title>{SITE_TITLE}</title>
       <link
         rel="apple-touch-icon"
         sizes="180x180"
