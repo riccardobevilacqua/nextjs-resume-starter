@@ -6,9 +6,42 @@ export default function Index() {
     <>
       <Layout>
         <Container>
+          <h3 className="title">Contacts</h3>
+          <div className="columns">
+            <div className="column">
+              <span>Phone: </span><a href="tel:+11234567890">+11234567890</a>
+            </div>
+            <div className="column">
+              <span>Email: </span><a href="mailto:carl.sagan@gmail.com">carl.sagan@gmail.com</a>
+            </div>
+            <div className="column">
+              <span>Social: </span><a href="https://www.linkedin.com/in/carlsagan/">LinkedIn</a><span> | </span><a href="https://twitter.com/carlsagan">Twitter</a>
+            </div>
+          </div>
+        </Container>
+        <Container>
           <h3 className="title">About</h3>
-          <div className="block">Extraordinary claims require extraordinary evidence light years hearts of the stars prime number permanence of the stars tesseract. A still more glorious dawn awaits inconspicuous motes of rock and gas descended from astronomers brain is the seed of intelligence courage of our questions something incredible is waiting to be known. Tingling of the spine two ghostly white figures in coveralls and helmets are softly dancing courage of our questions a mote of dust suspended in a sunbeam rich in heavy atoms invent the universe.</div>
-          <div className="block">Dream of the mind's eye inconspicuous motes of rock and gas citizens of distant epochs muse about trillion bits of moving fluff? Circumnavigated gathered by gravity with pretty stories for which there's little good evidence two ghostly white figures in coveralls and helmets are softly dancing two ghostly white figures in coveralls and helmets are softly dancing rich in heavy atoms. Rich in heavy atoms finite but unbounded extraordinary claims require extraordinary evidence rich in mystery vastness is bearable only through love Jean-François Champollion.</div>
+          <div className="block">
+            Carl Edward Sagan (/ˈseɪɡən/; November 9, 1934 – December 20, 1996) was an American astronomer, planetary scientist, cosmologist, astrophysicist, astrobiologist, author, poet, and science communicator.
+          </div>
+          <div className="block">
+            His best known scientific contribution is research on extraterrestrial life, including experimental demonstration of the production of amino acids from basic chemicals by radiation.
+          </div>
+          <div className="block">
+            Sagan assembled the first physical messages sent into space: the Pioneer plaque and the Voyager Golden Record, universal messages that could potentially be understood by any extraterrestrial intelligence that might find them. Sagan argued the now-accepted hypothesis that the high surface temperatures of Venus can be attributed to and calculated using the greenhouse effect.
+          </div>
+        </Container>
+        <Container>
+          <h3 className="title">Skills</h3>
+          <div className="block">
+            Mathematics, Astrophysics, Cosmology, Astrobiology
+          </div>
+          <div className="block">
+            Science Communication
+          </div>
+          <div className="block">
+            Creativity, Passion, Inquisitivity
+          </div>
         </Container>
       </Layout>
     </>
