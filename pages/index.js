@@ -27,9 +27,6 @@ export default function Index() {
           <div className="block">
             His best known scientific contribution is research on extraterrestrial life, including experimental demonstration of the production of amino acids from basic chemicals by radiation.
           </div>
-          <div className="block">
-            Sagan assembled the first physical messages sent into space: the Pioneer plaque and the Voyager Golden Record, universal messages that could potentially be understood by any extraterrestrial intelligence that might find them. Sagan argued the now-accepted hypothesis that the high surface temperatures of Venus can be attributed to and calculated using the greenhouse effect.
-          </div>
         </Container>
         <Container>
           <h3 className="title">Skills</h3>
@@ -42,6 +39,22 @@ export default function Index() {
           <div className="block">
             Creativity, Passion, Inquisitivity
           </div>
+        </Container>
+        <Container>
+          <h3 className="title">Work Experience</h3>
+          <article className="media">
+            <figure className="media-left">
+              <p className="image is-64x64">
+                <img src="https://bulma.io/images/placeholders/128x128.png" />
+              </p>
+            </figure>
+            <div class="media-content">
+              <div class="content">
+                <h4>Example</h4>
+                <div className="block">Some text</div>
+              </div>
+            </div>
+          </article>
         </Container>
       </Layout>
     </>
