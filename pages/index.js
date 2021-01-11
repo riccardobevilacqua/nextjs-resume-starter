@@ -48,9 +48,10 @@ export default function Index() {
                 <img src="https://bulma.io/images/placeholders/128x128.png" />
               </p>
             </figure>
-            <div class="media-content">
-              <div class="content">
-                <h4>Example</h4>
+            <div className="media-content">
+              <div className="content">
+                <h5 className="title">Awesome Ltd</h5>
+                <h6 className="subtitle is-size-7">May 2019 - Present</h6>
                 <div className="block">Some text</div>
               </div>
             </div>
