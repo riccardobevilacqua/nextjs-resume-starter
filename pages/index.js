@@ -30,18 +30,23 @@ export default function Index() {
         </Container>
         <Container>
           <h3 className="title">Skills</h3>
-          <div className="block">
-            Mathematics, Astrophysics, Cosmology, Astrobiology
+          <div className="tags are-medium">
+            <span className="tag">Mathematics</span>
+            <span className="tag">Astrophysics</span>
+            <span className="tag">Cosmology</span>
+            <span className="tag">Astrobiology</span>
           </div>
-          <div className="block">
-            Science Communication
+          <div className="tags are-medium">
+            <span className="tag">Science Communication</span>
           </div>
-          <div className="block">
-            Creativity, Passion, Inquisitivity
+          <div className="tags are-medium">
+            <span className="tag">Creativity</span>
+            <span className="tag">Passion</span>
+            <span className="tag">Inquisitivity</span>
           </div>
         </Container>
         <Container>
-          <h3 className="title">Work Experience</h3>
+          <h3 className="title">Experience</h3>
           <article className="media">
             <figure className="media-left is-hidden-mobile">
               <p className="image is-64x64">
