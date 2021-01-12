@@ -7,15 +7,15 @@ export default function Index() {
       <Layout>
         <Container>
           <h3 className="title">Contacts</h3>
-          <div className="columns">
+          <div className="columns has-text-centered has-text-left-mobile">
             <div className="column">
-              <span>Phone: </span><a href="tel:+11234567890">+11234567890</a>
+              <a aria-label="phone" href="tel:+11234567890">+11234567890</a>
             </div>
             <div className="column">
-              <span>Email: </span><a href="mailto:carl.sagan@gmail.com">carl.sagan@gmail.com</a>
+              <a aria-label="email" href="mailto:carl.sagan@gmail.com">carl.sagan@gmail.com</a>
             </div>
             <div className="column">
-              <span>Social: </span><a href="https://www.linkedin.com/in/carlsagan/">LinkedIn</a><span> | </span><a href="https://twitter.com/carlsagan">Twitter</a>
+              <a aria-label="LinkedIn" href="https://www.linkedin.com/in/carlsagan/">LinkedIn</a><span> | </span><a aria-label="Twitter" href="https://twitter.com/carlsagan">Twitter</a>
             </div>
           </div>
         </Container>
@@ -25,7 +25,7 @@ export default function Index() {
             American astronomer, planetary scientist, cosmologist, astrophysicist, astrobiologist, author, poet, and science communicator.
           </div>
           <div className="block">
-            His best known scientific contribution is research on extraterrestrial life, including experimental demonstration of the production of amino acids from basic chemicals by radiation.
+            Best known scientific contribution is research on extraterrestrial life, including experimental demonstration of the production of amino acids from basic chemicals by radiation.
           </div>
         </Container>
         <Container>
@@ -50,9 +50,15 @@ export default function Index() {
             </figure>
             <div className="media-content">
               <div className="content">
-                <h4 className="title">University of California, Berkeley</h4>
-                <p>Miller Fellow</p>
-                <p className="is-italic">1960 - 1962</p>
+                <div className="columns">
+                  <div className="column">
+                    <h4 className="title">University of California, Berkeley</h4>
+                    <p>Miller Fellow</p>
+                  </div>
+                  <div className="column has-text-right has-text-left-mobile">
+                    <p className="is-italic">1960 - 1962</p>
+                  </div>
+                </div>
                 <p>American astronomer, planetary scientist, cosmologist, astrophysicist, astrobiologist, author, poet, and science communicator.</p>
               </div>
             </div>
