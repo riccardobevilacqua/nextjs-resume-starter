@@ -21,3 +21,10 @@ $content-heading-color: $custom-title-color;
 @import "../node_modules/bulma/sass/elements/tag.sass";
 @import "../node_modules/bulma/sass/elements/other.sass";
 @import "../node_modules/bulma/sass/components/media.sass";
+@import "../node_modules/bulma/sass/components/level.sass";
+
+@media screen and (max-width: 768px) {
+  .media-content {
+    overflow-x: visible;
+  }
+}

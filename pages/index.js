@@ -40,43 +40,44 @@ export default function Index() {
           <article className="media">
             <figure className="media-left is-hidden-mobile">
               <p className="image is-64x64">
-                <img src="https://bulma.io/images/placeholders/128x128.png" />
+                <img src="https://bulma.io/images/placeholders/64x64.png" />
               </p>
             </figure>
             <div className="media-content">
-              <div className="content">
-                <div className="columns">
-                  <div className="column">
-                    <h4 className="title">Awesome Ltd</h4>
-                    <p>Senior Astrophysicist</p>
-                  </div>
-                  <div className="column has-text-right has-text-left-mobile">
-                    <p className="is-italic">May 2019 - Present</p>
-                  </div>
+              <div className="columns">
+                <div className="column">
+                  <h4 className="title is-size-4">Awesome Ltd</h4>
+                  <h6 className="subtitle is-size-6">Senior Astrophysicist</h6>
                 </div>
-                <p>Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo. Nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam. Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+                <div className="column has-text-right-desktop has-text-left-mobile is-italic">
+                  May 2019 - Present
+                </div>
+              </div>
+              <div className="content">
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                <p>Laboris nisi ut aliquip ex ea commodo consequat. Animi, id est laborum et dolorum fuga. Do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>
               </div>
             </div>
           </article>
           <article className="media">
             <figure className="media-left is-hidden-mobile">
               <p className="image is-64x64">
-                <img src="https://bulma.io/images/placeholders/128x128.png" />
+                <img src="https://bulma.io/images/placeholders/64x64.png" />
               </p>
             </figure>
             <div className="media-content">
-              <div className="content">
-                <div className="columns">
-                  <div className="column">
-                    <h4 className="title">Great Company Ltd</h4>
-                    <p>Cosmologist</p>
-                  </div>
-                  <div className="column has-text-right has-text-left-mobile">
-                    <p className="is-italic">Sep 2015 - May 2019</p>
-                  </div>
+              <div className="columns">
+                <div className="column">
+                  <h4 className="title is-size-4">Great Company Ltd</h4>
+                  <h6 className="subtitle is-size-6">Astrophysicist</h6>
                 </div>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit. Nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam. Laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <p>At vero eos et accusamus. Eaque ipsa quae ab illo inventore veritatis et quasi. Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+                <div className="column has-text-right-desktop has-text-left-mobile is-italic">
+                  Feb 2015 - May 2019
+                </div>
+              </div>
+              <div className="content">
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                <p>Laboris nisi ut aliquip ex ea commodo consequat. Animi, id est laborum et dolorum fuga. Do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>
               </div>
             </div>
           </article>
