@@ -22,7 +22,7 @@ export default function Index() {
         <Container>
           <h3 className="title">About</h3>
           <div className="block">
-            Carl Edward Sagan (/ˈseɪɡən/; November 9, 1934 – December 20, 1996) was an American astronomer, planetary scientist, cosmologist, astrophysicist, astrobiologist, author, poet, and science communicator.
+            American astronomer, planetary scientist, cosmologist, astrophysicist, astrobiologist, author, poet, and science communicator.
           </div>
           <div className="block">
             His best known scientific contribution is research on extraterrestrial life, including experimental demonstration of the production of amino acids from basic chemicals by radiation.
@@ -43,17 +43,20 @@ export default function Index() {
         <Container>
           <h3 className="title">Work Experience</h3>
           <article className="media">
-            <figure className="media-left">
+            <figure className="media-left is-hidden-mobile">
               <p className="image is-64x64">
                 <img src="https://bulma.io/images/placeholders/128x128.png" />
               </p>
             </figure>
             <div className="media-content">
               <div className="content">
-                <h5 className="title">Awesome Ltd</h5>
-                <h6 className="subtitle is-size-7">May 2019 - Present</h6>
+                <h5 className="title">University of California, Berkeley</h5>
+                <h6 className="subtitle">Miller Fellow</h6>
                 <div className="block">Some text</div>
               </div>
+            </div>
+            <div className="media-right">
+              <div className="block">1960 - 1962</div>
             </div>
           </article>
         </Container>
