@@ -19,18 +19,18 @@ export default function Index() {
             <div className="column">
               <h3 className="title">Skills</h3>
               <div className="tags are-medium">
-                <span className="tag">Mathematics</span>
-                <span className="tag">Astrophysics</span>
-                <span className="tag">Cosmology</span>
-                <span className="tag">Astrobiology</span>
+                <span className="tag is-primary">Mathematics</span>
+                <span className="tag is-primary">Astrophysics</span>
+                <span className="tag is-primary">Cosmology</span>
+                <span className="tag is-primary">Astrobiology</span>
               </div>
               <div className="tags are-medium">
-                <span className="tag">Science Communication</span>
+                <span className="tag is-primary">Science Communication</span>
               </div>
               <div className="tags are-medium">
-                <span className="tag">Creativity</span>
-                <span className="tag">Passion</span>
-                <span className="tag">Inquisitivity</span>
+                <span className="tag is-primary">Creativity</span>
+                <span className="tag is-primary">Passion</span>
+                <span className="tag is-primary">Inquisitivity</span>
               </div>
             </div>
           </div>
