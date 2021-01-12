@@ -50,13 +50,11 @@ export default function Index() {
             </figure>
             <div className="media-content">
               <div className="content">
-                <h5 className="title">University of California, Berkeley</h5>
-                <h6 className="subtitle">Miller Fellow</h6>
-                <div className="block">Some text</div>
+                <h4 className="title">University of California, Berkeley</h4>
+                <p>Miller Fellow</p>
+                <p className="is-italic">1960 - 1962</p>
+                <p>American astronomer, planetary scientist, cosmologist, astrophysicist, astrobiologist, author, poet, and science communicator.</p>
               </div>
-            </div>
-            <div className="media-right">
-              <div className="block">1960 - 1962</div>
             </div>
           </article>
         </Container>
