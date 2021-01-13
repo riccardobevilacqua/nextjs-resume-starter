@@ -1,30 +1,7 @@
 @charset "utf-8";
 
-$custom-title-color: #44566C;
-$primary: #304CFD;
-$section-padding: 1.5rem 1rem;
-$title-color: $custom-title-color;
-$content-heading-color: $custom-title-color;
+@import "./fluidigrid.scss";
 
-@import "../node_modules/bulma/sass/utilities/_all.sass";
-@import "../node_modules/bulma/sass/base/_all.sass";
-@import "../node_modules/bulma/sass/helpers/_all.sass";
-@import "../node_modules/bulma/sass/layout/section.sass";
-@import "../node_modules/bulma/sass/layout/hero.sass";
-@import "../node_modules/bulma/sass/layout/footer.sass";
-@import "../node_modules/bulma/sass/grid/columns.sass";
-@import "../node_modules/bulma/sass/elements/container.sass";
-@import "../node_modules/bulma/sass/elements/content.sass";
-@import "../node_modules/bulma/sass/elements/title.sass";
-@import "../node_modules/bulma/sass/elements/box.sass";
-@import "../node_modules/bulma/sass/elements/image.sass";
-@import "../node_modules/bulma/sass/elements/tag.sass";
-@import "../node_modules/bulma/sass/elements/other.sass";
-@import "../node_modules/bulma/sass/components/media.sass";
-@import "../node_modules/bulma/sass/components/level.sass";
-
-@media screen and (max-width: 768px) {
-  .media-content {
-    overflow-x: visible;
-  }
+body {
+  font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }

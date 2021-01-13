@@ -5,7 +5,8 @@ export default function Index() {
   return (
     <>
       <Layout>
-        <Container>
+        {/*
+        <section>
           <div className="columns">
             <div className="column">
               <h3 className="title">About</h3>
@@ -34,7 +35,7 @@ export default function Index() {
               </div>
             </div>
           </div>
-        </Container>
+        </section>
         <Container>
           <h3 className="title">Experience</h3>
           <article className="media">
@@ -81,7 +82,7 @@ export default function Index() {
               </div>
             </div>
           </article>
-        </Container>
+        </Container> */}
       </Layout>
     </>
   )
