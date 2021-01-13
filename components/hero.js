@@ -15,7 +15,9 @@ export default function Hero() {
         <a aria-label="email" href="mailto:carl.sagan@gmail.com">carl.sagan@gmail.com</a>
       </div>
       <div className="cs9 ce12">
-        <a aria-label="LinkedIn" href="https://www.linkedin.com/in/carlsagan/">LinkedIn</a><span> | </span><a aria-label="Twitter" href="https://twitter.com/carlsagan">Twitter</a>
+        <a aria-label="LinkedIn" href="https://www.linkedin.com/in/carlsagan/">LinkedIn</a>
+        <span style={{ padding: '0 0.5em' }}>|</span>
+        <a aria-label="Twitter" href="https://twitter.com/carlsagan">Twitter</a>
       </div>
     </div>
   )
