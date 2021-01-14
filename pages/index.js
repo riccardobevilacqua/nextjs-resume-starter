@@ -7,12 +7,21 @@ export default function Index() {
         <div className="main-container">
           <div className="grid">
             <div className="cs1 ce6">
-              <h3>About</h3>
-              <p>American astronomer, planetary scientist, cosmologist, astrophysicist, astrobiologist, author, poet, and science communicator.</p>
+              <section>
+                <h3>About</h3>
+                <div className="content">
+                  <p>American astronomer, planetary scientist, cosmologist, astrophysicist, astrobiologist, author, poet, and science communicator.</p>
+                  <p>Best known scientific contribution is research on extraterrestrial life, including experimental demonstration of the production of amino acids from basic chemicals by radiation.</p>
+                </div>
+              </section>
             </div>
             <div className="cs7 ce12">
-              <h3>Skills</h3>
-              <p>American astronomer, planetary scientist, cosmologist, astrophysicist, astrobiologist, author, poet, and science communicator.</p>
+              <section>
+                <h3>Skills</h3>
+                <div className="content">
+                  <p>American astronomer, planetary scientist, cosmologist, astrophysicist, astrobiologist, author, poet, and science communicator.</p>
+                </div>
+              </section>
             </div>
           </div>
         </div>

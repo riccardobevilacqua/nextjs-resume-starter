@@ -29,5 +29,13 @@ a {
 
 .main-container {
   max-width: 90%;
-  margin: 0 auto;
+  margin: 1rem auto;
+}
+
+section {
+  padding: 1rem 0;
+}
+
+section .content {
+  padding-top: 1rem;
 }
