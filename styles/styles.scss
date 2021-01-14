@@ -1,9 +1,12 @@
 @charset "utf-8";
 
+@import "../node_modules/eva-icons/style/scss/eva-icons.scss";
 @import "./fluidigrid.scss";
 
 body {
-  font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
 }
 
 a {
