@@ -3,6 +3,9 @@ import styles from '../styles/Card.module.scss'
 export default function Card() {
   return (
     <div className={styles.card}>
+      <figure className={styles.cardImg} aria-label="example">
+        <img src="https://via.placeholder.com/64" alt="example" />
+      </figure>
       <div className={styles.cardContent}>
         <h4>Example</h4>
         <div className="content">
