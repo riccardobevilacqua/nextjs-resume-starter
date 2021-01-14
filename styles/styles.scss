@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+$mobileBreakPoint: 768px;
+
 @import "../node_modules/eva-icons/style/scss/eva-icons.scss";
 @import "./fluidigrid.scss";
 
@@ -9,6 +11,23 @@ body {
     Arial, sans-serif;
 }
 
+h1 {
+  font-size: 6em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
 a {
   text-decoration: none;
+}
+
+.main-container {
+  max-width: 90%;
+  margin: 0 auto;
 }

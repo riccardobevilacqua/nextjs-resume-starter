@@ -115,8 +115,7 @@ div {
 }
 
 /* Media queries */
-
-@media only screen and (min-width: 1px) and (max-width: 1024px) {
+@media only screen and (min-width: 1px) and (max-width: $mobileBreakPoint) {
   grid,
   .grid {
     grid-template-columns: var(--grid-tc-1);
