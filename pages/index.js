@@ -25,13 +25,13 @@ export default function Index() {
                 <h3>Skills</h3>
                 <div className="content">
                   <div className="block">
-                    <p>Mathematics, Astrophysics, Cosmology, Astrobiology</p>
+                    <p><i className="eva eva-bulb-outline"></i> Mathematics, Astrophysics, Cosmology, Astrobiology</p>
                   </div>
                   <div className="block">
-                    <p>Science Communication</p>
+                    <p><i className="eva eva-code"></i> Science Communication</p>
                   </div>
                   <div className="block">
-                    <p>Creativity, Passion, Cosmology, Inquisitivity</p>
+                    <p><i className="eva eva-heart-outline"></i> Creativity, Passion, Cosmology, Inquisitivity</p>
                   </div>
                 </div>
               </section>
