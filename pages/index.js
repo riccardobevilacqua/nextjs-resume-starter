@@ -4,6 +4,18 @@ export default function Index() {
   return (
     <>
       <Layout>
+        <div className="main-container">
+          <div className="grid">
+            <div className="cs1 ce6">
+              <h3>About</h3>
+              <p>American astronomer, planetary scientist, cosmologist, astrophysicist, astrobiologist, author, poet, and science communicator.</p>
+            </div>
+            <div className="cs7 ce12">
+              <h3>Skills</h3>
+              <p>American astronomer, planetary scientist, cosmologist, astrophysicist, astrobiologist, author, poet, and science communicator.</p>
+            </div>
+          </div>
+        </div>
         {/*
         <section>
           <div className="columns">
