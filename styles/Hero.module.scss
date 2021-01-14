@@ -6,19 +6,13 @@
   overflow: hidden;
 }
 
-.hero:before {
-  content: " ";
-  display: block;
+.heroCover {
   position: absolute;
-  top: 0;
   left: 0;
-  background-color: #2b83fc;
-  background-image: url("../public/img/hero-background-light.jpg");
-  background-size: cover;
-  background-position: 50% 0;
+  top: 0;
   width: 100%;
-  height: 100%;
-  opacity: 0.5;
+  height: auto;
+  opacity: 0.6;
   z-index: -1000;
 }
 
