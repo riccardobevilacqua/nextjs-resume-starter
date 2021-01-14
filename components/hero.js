@@ -1,11 +1,7 @@
-import Image from 'next/image'
-
 import { SITE_TITLE, SITE_SUBTITLE } from '@lib/constants'
-import styles from '../styles/Hero.module.scss'
+import styles from '../styles/Hero.module.scss';
 
-export default function Hero({
-  coverUrl = '/img/hero-background-light.jpg',
-}) {
+export default function Hero() {
   return (
     <div className={`${styles.hero} grid`}>
       <div className={[styles.heroHeader, 'cs1 ce12'].join(' ')}>
@@ -35,13 +31,6 @@ export default function Hero({
           <i className="eva eva-github"></i>
         </a>
       </div>
-      <Image
-        className={styles.heroCover}
-        src={coverUrl}
-        alt="Cover"
-        layout="fill"
-        objectFit="cover"
-      />
     </div>
   )
 }
