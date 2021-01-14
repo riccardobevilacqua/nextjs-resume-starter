@@ -1,4 +1,5 @@
 import Layout from '@components/layout'
+import Card from '@components/card'
 
 export default function Index() {
   return (
@@ -10,8 +11,12 @@ export default function Index() {
               <section>
                 <h3>About</h3>
                 <div className="content">
-                  <p>American astronomer, planetary scientist, cosmologist, astrophysicist, astrobiologist, author, poet, and science communicator.</p>
-                  <p>Best known scientific contribution is research on extraterrestrial life, including experimental demonstration of the production of amino acids from basic chemicals by radiation.</p>
+                  <div className="block">
+                    <p>American astronomer, planetary scientist, cosmologist, astrophysicist, astrobiologist, author, poet, and science communicator.</p>
+                  </div>
+                  <div className="block">
+                    <p>Best known scientific contribution is research on extraterrestrial life, including experimental demonstration of the production of amino acids from basic chemicals by radiation.</p>
+                  </div>
                 </div>
               </section>
             </div>
@@ -19,43 +24,29 @@ export default function Index() {
               <section>
                 <h3>Skills</h3>
                 <div className="content">
-                  <p>American astronomer, planetary scientist, cosmologist, astrophysicist, astrobiologist, author, poet, and science communicator.</p>
+                  <div className="block">
+                    <p>Mathematics, Astrophysics, Cosmology, Astrobiology</p>
+                  </div>
+                  <div className="block">
+                    <p>Science Communication</p>
+                  </div>
+                  <div className="block">
+                    <p>Creativity, Passion, Cosmology, Inquisitivity</p>
+                  </div>
                 </div>
+              </section>
+            </div>
+            <div className="cs1 ce12">
+              <section>
+                <h3 className="title">Experience</h3>
+                <Card />
+                <Card />
+                <Card />
               </section>
             </div>
           </div>
         </div>
         {/*
-        <section>
-          <div className="columns">
-            <div className="column">
-              <h3 className="title">About</h3>
-              <div className="block">
-                American astronomer, planetary scientist, cosmologist, astrophysicist, astrobiologist, author, poet, and science communicator.
-              </div>
-              <div className="block">
-                Best known scientific contribution is research on extraterrestrial life, including experimental demonstration of the production of amino acids from basic chemicals by radiation.
-              </div>
-            </div>
-            <div className="column">
-              <h3 className="title">Skills</h3>
-              <div className="tags are-medium">
-                <span className="tag is-primary">Mathematics</span>
-                <span className="tag is-primary">Astrophysics</span>
-                <span className="tag is-primary">Cosmology</span>
-                <span className="tag is-primary">Astrobiology</span>
-              </div>
-              <div className="tags are-medium">
-                <span className="tag is-primary">Science Communication</span>
-              </div>
-              <div className="tags are-medium">
-                <span className="tag is-primary">Creativity</span>
-                <span className="tag is-primary">Passion</span>
-                <span className="tag is-primary">Inquisitivity</span>
-              </div>
-            </div>
-          </div>
-        </section>
         <Container>
           <h3 className="title">Experience</h3>
           <article className="media">
